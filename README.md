@@ -3,7 +3,7 @@
   <img src="tgne.png" alt="TGNE" width="1300"/>
 
 
-# Code for Temporal Gaussian Embedding of Temporal Networks
+# Code for Temporal Gaussian Network Embedding
 
 
 
