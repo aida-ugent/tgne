@@ -1,4 +1,11 @@
+<!-- Banner png -->
+<p align="center">
+  <img src="tgne.png" alt="TGNE" width="1300"/>
+
+
 # Code for Temporal Gaussian Embedding of Temporal Networks
+
+
 
 ## Requirements
 
