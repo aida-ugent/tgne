@@ -1,0 +1,119 @@
+{
+  "artifacts": [
+    "tgne_toy_100.ckpt"
+  ],
+  "command": "train",
+  "experiment": {
+    "base_dir": "/home/raphael/Work/aida_ugent/tgne",
+    "dependencies": [
+      "numpy==1.23.4",
+      "sacred==0.8.4",
+      "torch==1.12.1",
+      "torch-geometric==2.3.1",
+      "tqdm==4.64.1"
+    ],
+    "mainfile": "train.py",
+    "name": "tgne",
+    "repositories": [
+      {
+        "commit": "8d89446969c0ccc8adcab1d3fb99b867962b7fdb",
+        "dirty": true,
+        "url": "https://github.com/aida-ugent/tgne.git"
+      },
+      {
+        "commit": "8d89446969c0ccc8adcab1d3fb99b867962b7fdb",
+        "dirty": true,
+        "url": "https://github.com/aida-ugent/tgne.git"
+      },
+      {
+        "commit": "8d89446969c0ccc8adcab1d3fb99b867962b7fdb",
+        "dirty": true,
+        "url": "https://github.com/aida-ugent/tgne.git"
+      },
+      {
+        "commit": "8d89446969c0ccc8adcab1d3fb99b867962b7fdb",
+        "dirty": true,
+        "url": "https://github.com/aida-ugent/tgne.git"
+      }
+    ],
+    "sources": [
+      [
+        "model/__init__.py",
+        "_sources/__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "model/tgne.py",
+        "_sources/tgne_ba2bdedb8327cc3ee24a11d7a926669d.py"
+      ],
+      [
+        "temporal_data.py",
+        "_sources/temporal_data_b9174a41375900732db49888a6f34e98.py"
+      ],
+      [
+        "train.py",
+        "_sources/train_8352dce6b5e5c425599475935780c09b.py"
+      ]
+    ]
+  },
+  "heartbeat": "2023-10-10T07:29:07.316270",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Core(TM) i7-9850H CPU @ 2.60GHz",
+    "gpus": {
+      "driver_version": "470.199.02",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce MX150",
+          "persistence_mode": false,
+          "total_memory": 2002
+        }
+      ]
+    },
+    "hostname": "raphael-Latitude-5501",
+    "os": [
+      "Linux",
+      "Linux-5.15.0-86-generic-x86_64-with-glibc2.10"
+    ],
+    "python_version": "3.8.0"
+  },
+  "meta": {
+    "command": "train",
+    "config_updates": {
+      "n_epochs": 100
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "n_epochs=100"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2023-10-10T07:29:05.237292",
+  "status": "COMPLETED",
+  "stop_time": "2023-10-10T07:29:07.314695"
+}

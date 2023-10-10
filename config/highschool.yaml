@@ -1,0 +1,9 @@
+dataset: "highschool"
+seed: 42
+dim: 2
+prior_scale: 1.0
+prior_scale_init: 1.0
+n_ticks: 15
+n_epochs: 1000
+lr_z: 0.1
+lr_bias: 0.1

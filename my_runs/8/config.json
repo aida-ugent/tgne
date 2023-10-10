@@ -1,0 +1,13 @@
+{
+  "batch_size": null,
+  "cuda": false,
+  "dataset": "highschool",
+  "dim": 2,
+  "lr_bias": 0.001,
+  "lr_z": 0.1,
+  "n_epochs": 200,
+  "n_ticks": 15,
+  "prior_scale": 1.0,
+  "prior_scale_init": null,
+  "seed": 42
+}

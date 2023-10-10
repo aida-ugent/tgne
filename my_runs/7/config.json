@@ -1,0 +1,15 @@
+{
+  "batch_size": null,
+  "cuda": false,
+  "dataset": "toy",
+  "debug": false,
+  "dim": 2,
+  "lr_bias": 0.001,
+  "lr_z": 0.1,
+  "n_epochs": 100,
+  "n_ticks": 15,
+  "prior_scale": 1.0,
+  "prior_scale_init": null,
+  "save": true,
+  "seed": 42
+}

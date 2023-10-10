@@ -1,0 +1,6 @@
+INFO - tgne - Running command 'train'
+INFO - tgne - Started run with ID "2"
+Debug mode
+Using device "cpu"
+  0%|          | 0/1 [00:00<?, ?it/s]loss: 40888.9375:   0%|          | 0/1 [00:00<?, ?it/s]loss: 40888.9375: 100%|██████████| 1/1 [00:00<00:00, 35.39it/s]
+INFO - tgne - Completed after 0:00:00
