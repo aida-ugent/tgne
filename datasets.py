@@ -133,13 +133,6 @@ def get_adjbox(events, n_nodes, n_intervals):
     return A
 
 
-def get_interval_count_df(events, n_intervals):
-    """
-    Divide the time interval into n_interval bins
-    For each bin, and each node pair, count the number of interactions
-    for this node pair in the bin
-    """
-
 
 if __name__ == "__main__":
     print("Loading toy dataset")
