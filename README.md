@@ -12,7 +12,6 @@
 ```
 numpy==1.23.4
 pandas==1.5.3
-pyro==3.16
 pyro_ppl==1.8.4
 torch==1.12.1
 tqdm==4.64.1
